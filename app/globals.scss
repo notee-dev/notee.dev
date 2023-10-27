@@ -44,6 +44,10 @@ body {
     transition: background-color .5s ease-in-out;
 }
 
+*:focus {
+    outline: none;
+}
+
 .notee-tooltip {
     background-color: var(--notee-primary);
 }
